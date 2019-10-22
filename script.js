@@ -79,6 +79,7 @@ function create_chart(market_chart_data){
         x_y_data.push({});
         x_y_data[i]['x'] = newDateString(time_price_pairs[i][0]);
         x_y_data[i]['y'] = time_price_pairs[i][1];
+        time_stamps.push(time_price_pairs[i][0])
 
         // let readable_date = timeConverter(time_price_pairs[i][0]);
         
@@ -132,7 +133,7 @@ function create_chart(market_chart_data){
                         labelString: 'Date'
                     },
                     ticks: {
-                        maxRotation: 0
+                        // maxRotation: 0
                     }
                 }
             ],
