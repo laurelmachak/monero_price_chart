@@ -3,6 +3,21 @@
     box-sizing: border-box;
 }
 
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chart-container{
+    position: relative;
+    height: 640px;
+    width: 90vw;
+    margin: auto;
+}
+
 #chart{
     background-color: #282828;
 }
