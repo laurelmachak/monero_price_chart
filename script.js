@@ -139,6 +139,10 @@ function create_chart(market_chart_data){
             ],
                 yAxes: [
                     {
+                        // ticks:{
+                        //     stepSize: 0.25
+                        // },
+                    
                       scaleLabel: {
                         display: true,
                         labelString: "USD Price"
